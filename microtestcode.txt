@@ -1,0 +1,21 @@
+MICRODE--
+VAR y = 54;
+VAR v = 15;
+VAR d = 0;
+VAR e = 0;
+
+//makes the loop move with delta time
+deltaLoops(true)
+
+loop() {
+    var d = deltaTime();
+    if(e == 1) {
+    var y += v * d;
+    var v -= 0.5;
+    }
+    rect(20,y,20,20)
+    frameRate(60)
+}
+loop(60) {
+    frameRate(30)
+}
