@@ -2,14 +2,14 @@ MICRODE--
 VAR y = 54;
 VAR v = 15;
 VAR d = 0;
-VAR e = 0;
+VAR e = true;
 
 //makes the loop move with delta time
 deltaLoops(true)
 
 loop() {
     var d = deltaTime();
-    if(e == 1) {
+    if(e == true) {
     var y += v * d;
     var v -= 0.5;
     }
