@@ -1,3 +1,5 @@
+MicroByte is a project I am creating for easy app development across any platform without having to edit the script. This hopefully will allow people to build exe's, dmg's, and tar files easily.
+
 The MicroByte Zip contains the JavaScript, HTML, and CSS files necessary for this to run.
 
 Designed And Programmed By: Evan Bailey
